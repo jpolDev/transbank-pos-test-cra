@@ -58,15 +58,15 @@ function App() {
         </p>
         <ul style={{ textAlign: "left" }}>
           <li>
-            <strong>Conexión agente:</strong>
+            <strong>Agent connection:</strong>
             <span>{" " + agentConnected}</span>
           </li>
           <li>
-            <strong>Conexión dispositivo:</strong>
+            <strong>POS connection:</strong>
             <span>{" " + posConnected}</span>
           </li>
           <li>
-            <strong>Puerto:</strong>
+            <strong>Port connected:</strong>
             <span>{" " + activePort}</span>
           </li>
         </ul>
